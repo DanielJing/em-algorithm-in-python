@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.stats import multivariate_normal
-# Define EM algorithm function
+
 def em_algorithm(X, k, max_iter=100):
     """
     Applies the Expectation-Maximization algorithm to estimate the parameters
@@ -20,7 +20,7 @@ def em_algorithm(X, k, max_iter=100):
     - pi: a numpy array of shape (k,) representing the mixture coefficients of the
           k components.
     """
-    # Function body goes here
+    # Function body 
 
     n, d = X.shape
     # Step 1: Initialize the parameters
