@@ -1,4 +1,3 @@
-# Import necessary libraries
 import numpy as np
 from scipy.stats import multivariate_normal
 # Define EM algorithm function
