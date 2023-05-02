@@ -20,7 +20,6 @@ def em_algorithm(X, k, max_iter=100):
     - pi: a numpy array of shape (k,) representing the mixture coefficients of the
           k components.
     """
-    # Function body 
 
     n, d = X.shape
     # Step 1: Initialize the parameters
